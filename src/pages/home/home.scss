@@ -1,0 +1,22 @@
+page-home {
+    #page-home {
+        background-color: #343a40;
+    }
+    
+    $page-color: #eee;
+    $header-color: #343a40;
+    
+    #card-category{
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    
+    #button-category{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

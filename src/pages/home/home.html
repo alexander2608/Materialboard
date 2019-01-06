@@ -1,0 +1,117 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page5"></ion-content>
+
+<ion-header>
+  <ion-navbar color="secondary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      材料易
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content id="page-home">
+
+
+    <ion-card-content>
+        <ion-slides pager>
+
+            <ion-slide>
+              <img src = "../assets/imgs/adbanner1.jpg" alt = "adbanner1">
+            </ion-slide>
+          
+            <ion-slide>
+              <img src = "../assets/imgs/adbanner1.jpg" alt = "adbanner1">
+            </ion-slide>
+          
+            <ion-slide>
+              <img src = "../assets/imgs/adbanner1.jpg" alt = "adbanner1">
+            </ion-slide>
+          
+          </ion-slides>
+    </ion-card-content>
+
+  <ion-card>
+    <ion-card-header>
+      常用類別
+    </ion-card-header>
+
+      <button ion-button (click)="LoadTab(2)">Search Bar</button> <!--Tab (2) is SearchPage-->
+
+    <div class="row">
+      <div class="col"><ion-card id="card-category"><button id="button-category">防火膠版</button></ion-card></div>
+      <div class="col"><ion-card id="card-category"><button id="button-category">木板</button></ion-card></div>
+      <div class="col"><ion-card id="card-category"><button id="button-category">封邊條</button></ion-card></div>
+      <div class="col"><ion-card id="card-category"><button id="button-category">防火膠版</button></ion-card></div>
+    </div>
+
+  </ion-card>
+
+  <ion-card>
+      <ion-card-header>
+        特價貨品
+      </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+                  
+                <ion-card>
+                    <div class="row">
+                    <div class="col">
+                    <img src = "../assets/imgs/250x250.png" alt = "Dummy250">
+                  </div>
+                  <div class="col">
+                    <h3>西德板</h3>
+                    <h2>防火膠版</h2>
+                    <h4>花色:木紋</h4>
+                    <h4>厚封邊:22mm x 1mm</h4>
+                    
+                  </div>
+                </div>
+                </ion-card>
+                
+                <ion-card>
+                    <div class="row">
+                    <div class="col">
+                    <img src = "../assets/imgs/250x250.png" alt = "Dummy250">
+                  </div>
+                  <div class="col">
+                    <h3>西德板</h3>
+                    <h2>防火膠版</h2>
+                    <h4>花色:木紋</h4>
+                    <h4>厚封邊:22mm x 1mm</h4>
+                  </div>
+                </div>
+                </ion-card>
+
+                <ion-card>
+                    <div class="row">
+                    <div class="col">
+                    <img src = "../assets/imgs/250x250.png" alt = "Dummy250">
+                  </div>
+                  <div class="col">.col</div>
+                </div>
+                </ion-card>
+
+                <ion-card>
+                    <div class="row">
+                    <div class="col">
+                    <img src = "../assets/imgs/250x250.png" alt = "Dummy250">
+                  </div>
+                  <div class="col">.col</div>
+                </div>
+                </ion-card>
+          </ion-grid>
+          
+        </ion-card-content>
+    </ion-card>
+
+  
+</ion-content>
